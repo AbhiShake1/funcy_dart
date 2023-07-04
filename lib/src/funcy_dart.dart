@@ -1,7 +1,3 @@
-/// {@template funcy_dart}
-/// model classes in dart without code generation
-/// {@endtemplate}
-class FuncyDart {
-  /// {@macro funcy_dart}
-  const FuncyDart();
-}
+export 'extensions/funcy_schema_extensions.dart';
+export 'models/funcy_model.dart';
+export 'models/funcy_schema.dart';
